@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Airi Child
+ Theme URI:    https://athemes.com/theme/airi
+ Description:  Airi Child Theme
+ Author:       Ben Incani
+ Author URI:   http://incani.net
+ Template:     airi
+ Version:      1.0.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.site-title {
+    font-size: 24px !important
+}
+.sidebar-column .widget-title {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.wp-call-button-widget-main-a {
+    text-align: right
+}
+.wp-call-button-widget-main-a a {
+    margin-top: 0 !important
+}
+.menuStyle2 .main-navigation a:hover,
+.menuStyle2 .main-navigation .current-menu-item a {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+}
+.menuStyle2 .main-navigation a:hover:after,
+.menuStyle2 .main-navigation .current-menu-item:after {
+    content: none;
+}
+@media screen and (max-width: 650px) {
+    #wp-call-button-widget-main-a-4 {
+        display: none;
+    }
+}
