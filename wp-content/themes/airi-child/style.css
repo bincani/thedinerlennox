@@ -36,3 +36,10 @@
         display: none;
     }
 }
+.mobile-menu-toggle_lines {
+  background: #ffffff;
+}
+.mobile-menu-toggle_lines:before,
+.mobile-menu-toggle_lines:after {
+  background: #ffffff;
+}
