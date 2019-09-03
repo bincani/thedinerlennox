@@ -31,8 +31,74 @@
 .menuStyle2 .main-navigation .current-menu-item:after {
     content: none;
 }
+.main-navigation ul ul li {
+    border: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .menuStyle2 .main-navigation a {
+        border-bottom: 2px solid #000000;
+        padding-bottom: 3px;
+    }
+}
 @media screen and (max-width: 650px) {
+    .site-content {
+        padding: 20px 0;
+    }
     #wp-call-button-widget-main-a-4 {
+        display: none;
+    }
+    .footer-widgets .sidebar-column {
+        margin: 20px 0 0 0 !important;
+    }
+    .footer-widgets h3.widget-title {
+        margin: 0 0 5px 0 !important;
+    }
+    .menu-menu-container {
+        -moz-box-shadow:    3px 3px 5px 6px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow: 0px 0px 5px 0px #ccc;
+    }
+    .menu-menu-container li {
+        border-bottom: 0px;
+    }
+    .menu-menu-container .menu-item a {
+        width: fit-content;
+        margin: auto;
+    }
+    .header-search-cart {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1199px) {
+    #site-navigation ul ul li {
+        background-color: #ffffff !important;
+    }
+    .menuStyle2 .main-navigation a {
+        color: #000000 !important;
+    }
+    .menuStyle2 .main-navigation a:hover,
+    .menuStyle2 .main-navigation .current-menu-item a {
+        border-bottom: 2px solid #000000 !important;
+        padding-bottom: 3px;
+    }
+    .menuStyle2 .main-navigation a,
+    .menuStyle2 .main-navigation .sub-menu .menu-item a {
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 3px;
+    }
+    .main-navigation li:first-of-type {
+        padding-left: 15px;
+    }
+    .main-navigation #primary-menu > li:first-of-type {
+        padding-left: 25px !important;
+    }
+    .main-navigation ul .sub-menu li a,
+    .main-navigation ul .children li a {
+        font-size: 11px;
+        line-height: 0.8;
+    }
+    .subnav-toggle {
         display: none;
     }
 }
@@ -42,4 +108,7 @@
 .mobile-menu-toggle_lines:before,
 .mobile-menu-toggle_lines:after {
   background: #ffffff;
+}
+.site-info {
+    font-size: 11px !important;
 }
