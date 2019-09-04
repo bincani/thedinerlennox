@@ -9,8 +9,32 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+.site-header {
+    padding: 20px 0;
+}
+.site-logo {
+    max-width: 200px;
+}
+.site-logo a.custom-logo-link {
+    margin-bottom: 5px;
+}
+.custom-logo-link img {
+    max-width: 100%;
+    height: auto !important;
+}
+.is-sticky .site-header .custom-logo-link img {
+    max-width: 140px;
+}
+.is-sticky .site-header .site-description {
+    display: none;
+}
 .site-title {
-    font-size: 24px !important
+    font-size: 24px !important;
+}
+.site-description {
+    width: 100%;
+    text-align: center;
+    font-size: 13px !important;
 }
 .sidebar-column .widget-title {
     font-size: 20px;
@@ -34,7 +58,13 @@
 .main-navigation ul ul li {
     border: 0;
 }
-
+ul.hours li {
+    padding-bottom: 0px;
+}
+.hours .open {
+    font-weight: bold;
+    color: #000000;
+}
 @media screen and (min-width: 1200px) {
     .menuStyle2 .main-navigation a {
         border-bottom: 2px solid #000000;
@@ -50,9 +80,6 @@
     }
     .footer-widgets .sidebar-column {
         margin: 20px 0 0 0 !important;
-    }
-    .footer-widgets h3.widget-title {
-        margin: 0 0 5px 0 !important;
     }
     .menu-menu-container {
         -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -100,6 +127,9 @@
     }
     .subnav-toggle {
         display: none;
+    }
+    .footer-widgets h3.widget-title {
+        margin: 0 0 5px 0 !important;
     }
 }
 .mobile-menu-toggle_lines {
